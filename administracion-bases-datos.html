@@ -6,6 +6,8 @@
     <title>Administración de Bases de Datos - Armando Gutiérrez</title>
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -28,18 +30,89 @@
 
     <!-- Main Content -->
     <main class="container mt-5 pt-5">
-        <section id="database-administration-details" class="my-5">
+        <section id="database-administration" class="my-5">
             <h2 class="text-center">Administración de Bases de Datos</h2>
-            <p>Aquí puedes detallar tus experiencias y logros en administración de bases de datos:</p>
-            <ul>
-                <li>Gestión y mantenimiento de bases de datos MySQL y MongoDB para asegurar la integridad y disponibilidad de los datos.</li>
-                <li>Implementación de procedimientos de respaldo y recuperación de datos para minimizar la pérdida de información.</li>
-                <li>Optimización de consultas y diseño de bases de datos para mejorar el rendimiento y la eficiencia.</li>
-                <li>Monitoreo y ajuste de la capacidad y rendimiento de las bases de datos para asegurar la escalabilidad.</li>
-                <li>Colaboración con desarrolladores para diseñar esquemas de bases de datos que soporten nuevas funcionalidades.</li>
-            </ul>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-database"></i> Gestión de MySQL</h5>
+                            <p class="card-text">Experiencia en la administración y optimización de bases de datos MySQL.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mysqlModal">Leer más</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-server"></i> Gestión de MongoDB</h5>
+                            <p class="card-text">Manejo y administración de bases de datos NoSQL con MongoDB.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mongodbModal">Leer más</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-shield-alt"></i> Seguridad de Datos</h5>
+                            <p class="card-text">Implementación de medidas de seguridad para la protección de datos.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dataSecurityModal">Leer más</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+
+    <!-- Modals for More Details -->
+    <!-- MySQL Modal -->
+    <div class="modal fade" id="mysqlModal" tabindex="-1" aria-labelledby="mysqlModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="mysqlModalLabel">Gestión de MySQL</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Detalles sobre la experiencia en la administración y optimización de bases de datos MySQL...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MongoDB Modal -->
+    <div class="modal fade" id="mongodbModal" tabindex="-1" aria-labelledby="mongodbModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="mongodbModalLabel">Gestión de MongoDB</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Detalles sobre la experiencia en la gestión y administración de bases de datos NoSQL con MongoDB...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Data Security Modal -->
+    <div class="modal fade" id="dataSecurityModal" tabindex="-1" aria-labelledby="dataSecurityModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="dataSecurityModalLabel">Seguridad de Datos</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Detalles sobre la implementación de medidas de seguridad para la protección de datos...</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 Armando David Gutiérrez Cortés</p>

@@ -6,6 +6,8 @@
     <title>Soporte Técnico - Armando Gutiérrez</title>
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -28,18 +30,89 @@
 
     <!-- Main Content -->
     <main class="container mt-5 pt-5">
-        <section id="support-details" class="my-5">
+        <section id="technical-support" class="my-5">
             <h2 class="text-center">Soporte Técnico</h2>
-            <p>Aquí puedes detallar tus experiencias y logros en soporte técnico:</p>
-            <ul>
-                <li>Diagnóstico y resolución de problemas de hardware y software para más de 1000 usuarios.</li>
-                <li>Implementación de soluciones de TI para mejorar la eficiencia y reducir el tiempo de inactividad.</li>
-                <li>Capacitación a usuarios en el uso de nuevas tecnologías y herramientas de software.</li>
-                <li>Documentación y seguimiento de incidencias utilizando sistemas de gestión de tickets.</li>
-                <li>Colaboración con equipos de desarrollo para resolver problemas complejos y mejorar el rendimiento del sistema.</li>
-            </ul>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-cogs"></i> Resolución de Problemas</h5>
+                            <p class="card-text">Solución de problemas técnicos para usuarios y empresas.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#problemSolvingModal">Leer más</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-network-wired"></i> Gestión de Redes</h5>
+                            <p class="card-text">Configuración y mantenimiento de redes locales y remotas.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#networkManagementModal">Leer más</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-user-shield"></i> Seguridad Informática</h5>
+                            <p class="card-text">Implementación de medidas de seguridad para proteger datos.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#securityModal">Leer más</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+
+    <!-- Modals for More Details -->
+    <!-- Modal 1 -->
+    <div class="modal fade" id="problemSolvingModal" tabindex="-1" aria-labelledby="problemSolvingModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="problemSolvingModalLabel">Resolución de Problemas</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Detallada descripción de la experiencia en la resolución de problemas técnicos...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal fade" id="networkManagementModal" tabindex="-1" aria-labelledby="networkManagementModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="networkManagementModalLabel">Gestión de Redes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Detallada descripción de la experiencia en la gestión y mantenimiento de redes...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3 -->
+    <div class="modal fade" id="securityModal" tabindex="-1" aria-labelledby="securityModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="securityModalLabel">Seguridad Informática</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Detallada descripción de la experiencia en la implementación de medidas de seguridad...</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 Armando David Gutiérrez Cortés</p>

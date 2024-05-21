@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desarrollo de Software - Armando Gutiérrez</title>
+    <title>Seguridad Informática - Armando Gutiérrez</title>
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome for Icons -->
@@ -30,88 +30,85 @@
 
     <!-- Main Content -->
     <main class="container mt-5 pt-5">
-        <section id="software-development" class="my-5">
-            <h2 class="text-center">Desarrollo de Software</h2>
+        <section id="cyber-security" class="my-5">
+            <h2 class="text-center">Seguridad Informática</h2>
             <div class="row">
                 <div class="col-md-4">
-                    <a href="#" class="card-link" data-toggle="modal" data-target="#webDevModal">
-                        <div class="card mb-4 shadow-sm">
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="fas fa-code"></i> Desarrollo Web</h5>
-                                <p class="card-text">Experiencia en la creación de sitios y aplicaciones web utilizando tecnologías modernas.</p>
-                            </div>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-shield-alt"></i> Protección de Datos</h5>
+                            <p class="card-text">Implementación de medidas de seguridad para proteger datos sensibles.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dataProtectionModal">Leer más</button>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <a href="#" class="card-link" data-toggle="modal" data-target="#mobileDevModal">
-                        <div class="card mb-4 shadow-sm">
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="fas fa-mobile-alt"></i> Desarrollo Móvil</h5>
-                                <p class="card-text">Desarrollo de aplicaciones móviles para plataformas iOS y Android.</p>
-                            </div>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-lock"></i> Auditorías de Seguridad</h5>
+                            <p class="card-text">Realización de auditorías para identificar vulnerabilidades.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#securityAuditModal">Leer más</button>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <a href="#" class="card-link" data-toggle="modal" data-target="#softwareEngModal">
-                        <div class="card mb-4 shadow-sm">
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="fas fa-laptop-code"></i> Ingeniería de Software</h5>
-                                <p class="card-text">Aplicación de principios de ingeniería para el diseño y desarrollo de software de calidad.</p>
-                            </div>
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-user-shield"></i> Capacitación en Seguridad</h5>
+                            <p class="card-text">Formación de personal en buenas prácticas de seguridad informática.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#securityTrainingModal">Leer más</button>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
     <!-- Modals for More Details -->
-    <!-- Web Development Modal -->
-    <div class="modal fade" id="webDevModal" tabindex="-1" aria-labelledby="webDevModalLabel" aria-hidden="true">
+    <!-- Modal 1 -->
+    <div class="modal fade" id="dataProtectionModal" tabindex="-1" aria-labelledby="dataProtectionModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="webDevModalLabel">Desarrollo Web</h5>
+                    <h5 class="modal-title" id="dataProtectionModalLabel">Protección de Datos</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p>Detalles sobre la experiencia en la creación de sitios y aplicaciones web utilizando tecnologías modernas...</p>
+                    <p>Detallada descripción de la experiencia en protección de datos sensibles...</p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Mobile Development Modal -->
-    <div class="modal fade" id="mobileDevModal" tabindex="-1" aria-labelledby="mobileDevModalLabel" aria-hidden="true">
+    <!-- Modal 2 -->
+    <div class="modal fade" id="securityAuditModal" tabindex="-1" aria-labelledby="securityAuditModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="mobileDevModalLabel">Desarrollo Móvil</h5>
+                    <h5 class="modal-title" id="securityAuditModalLabel">Auditorías de Seguridad</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p>Detalles sobre la experiencia en el desarrollo de aplicaciones móviles para plataformas iOS y Android...</p>
+                    <p>Detallada descripción de la experiencia en la realización de auditorías de seguridad...</p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Software Engineering Modal -->
-    <div class="modal fade" id="softwareEngModal" tabindex="-1" aria-labelledby="softwareEngModalLabel" aria-hidden="true">
+    <!-- Modal 3 -->
+    <div class="modal fade" id="securityTrainingModal" tabindex="-1" aria-labelledby="securityTrainingModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="softwareEngModalLabel">Ingeniería de Software</h5>
+                    <h5 class="modal-title" id="securityTrainingModalLabel">Capacitación en Seguridad</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p>Detalles sobre la aplicación de principios de ingeniería para el diseño y desarrollo de software de calidad...</p>
+                    <p>Detallada descripción de la experiencia en la formación de personal en seguridad informática...</p>
                 </div>
             </div>
         </div>
