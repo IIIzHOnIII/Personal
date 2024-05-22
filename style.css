@@ -7,6 +7,7 @@ body {
     padding: 0;
 }
 
+/* Headings */
 h2 {
     border-bottom: 2px solid #1DB954;
     padding-bottom: 0.5rem;
@@ -14,6 +15,7 @@ h2 {
     display: inline-block;
 }
 
+/* Cards */
 .card {
     background-color: #333;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -41,6 +43,7 @@ h2 {
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 }
 
+/* Navbar */
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
@@ -55,6 +58,7 @@ h2 {
     color: #1DB954;
 }
 
+/* Footer */
 footer {
     background: #1DB954;
     color: #fff;
@@ -62,6 +66,7 @@ footer {
     text-align: center;
 }
 
+/* Modal */
 .modal-content {
     background-color: #333;
     color: #ffffff;
@@ -71,4 +76,43 @@ footer {
 
 .modal-header {
     border-bottom: 1px solid #1DB954;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-brand, .nav-link {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        margin-bottom: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand, .nav-link {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .dark-overlay {
+        padding: 10px;
+    }
+
+    .card {
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .card .card-title {
+        font-size: 1.1rem;
+    }
 }
