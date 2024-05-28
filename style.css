@@ -7,6 +7,13 @@ body {
     padding: 0;
 }
 
+.background-image {
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 /* Headings */
 h2 {
     border-bottom: 2px solid #1DB954;
@@ -115,4 +122,12 @@ footer {
     .card .card-title {
         font-size: 1.1rem;
     }
+}
+
+.background-image {
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
